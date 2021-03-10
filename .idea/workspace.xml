@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="665cb906-48b6-41c3-b372-0b146ee97f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="665cb906-48b6-41c3-b372-0b146ee97f58" name="Default Changelist" comment="Connect 4 Core" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,12 +90,24 @@
       <option name="presentableId" value="Default" />
       <updated>1615224591168</updated>
       <workItem from="1615224592492" duration="34568000" />
-      <workItem from="1615338380381" duration="823000" />
+      <workItem from="1615338380381" duration="1305000" />
     </task>
+    <task id="LOCAL-00001" summary="Connect 4 Core">
+      <created>1615371005418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615371005418</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Connect 4 Core" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connect 4 Core" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
