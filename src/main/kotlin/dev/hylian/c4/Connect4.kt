@@ -62,31 +62,31 @@ class Connect4 {
 
         // vertical check
         for (column in cells) {
-            var previous = column.firstOrNull()
-            var count = 0
+            var previous: String? = null
+            var count = 1
 
             for (id in column) {
-                count = if (previous != null && previous == id) count + 1 else 0
-                previous = id
-
-                if(count == 4) {
+                if(count >= 4) {
                     return true
                 }
+
+                count = if (previous != null && previous == id) ++count else 1
+                previous = id
             }
         }
 
         // horizontal check
         for (i in (0..5)) {
             var previous: String? = null
-            var count = 0
+            var count = 1
 
             for (column in cells) {
-                count = if (previous != null && previous == column[i]) count + 1 else 0
-                previous = column[i]
-
-                if(count == 4) {
+                if (count >= 4) {
                     return true
                 }
+
+                count = if (previous != null && previous == column[i]) ++count else 1
+                previous = column[i]
             }
         }
 
@@ -108,9 +108,9 @@ class Connect4 {
 
     private fun isDiagonalWin(cells: LinkedList<LinkedList<String?>>): Boolean {
 
-        for (column in cells.lastIndex - 2 downTo 0) {
+        for (column in cells.lastIndex - 3 downTo 0) {
             var id = cells[column][5]
-            var hit = 1
+            var hit = 0
             var i = 5
 
             for (previous in column until cells.size) {
